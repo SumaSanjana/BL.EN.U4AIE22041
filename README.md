@@ -1,3 +1,33 @@
+## Question 1: Average Stock Price in the Last “m” Minutes
+
+### Endpoint
+**Method**: `GET`  
+**Route**: `http://hostname/stocks/:ticker?minutes=m&aggregation=average`
+
+### Description
+Fetches the average stock price and price history for the given stock `:ticker` over the last `m` minutes.
+
+### Example Response
+
+```json
+{
+  "averageStockPrice": 120.42,
+  "priceHistory": [
+    {
+      "price": 119.85,
+      "lastUpdatedAt": "2024-05-12T10:30:00Z"
+    },
+    {
+      "price": 120.99,
+      "lastUpdatedAt": "2024-05-12T10:31:00Z"
+    }
+    // ...
+  ]
+}
+![image](https://github.com/user-attachments/assets/28777c1a-3a99-4437-96fd-1082743d1e31)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
