@@ -24,7 +24,9 @@ Fetches the average stock price and price history for the given stock `:ticker` 
     // ...
   ]
 }
-![image](https://github.com/user-attachments/assets/28777c1a-3a99-4437-96fd-1082743d1e31)
+
+![WhatsApp Image 2025-05-12 at 7 31 30 PM](https://github.com/user-attachments/assets/42dcdbc8-d1f5-439d-bbf0-fb9c6eb2368c)
+
 
 
 
