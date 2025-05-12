@@ -7,23 +7,6 @@
 ### Description
 Fetches the average stock price and price history for the given stock `:ticker` over the last `m` minutes.
 
-### Example Response
-
-```json
-{
-  "averageStockPrice": 120.42,
-  "priceHistory": [
-    {
-      "price": 119.85,
-      "lastUpdatedAt": "2024-05-12T10:30:00Z"
-    },
-    {
-      "price": 120.99,
-      "lastUpdatedAt": "2024-05-12T10:31:00Z"
-    }
-    // ...
-  ]
-}
 
 
 # Getting Started with Create React App
